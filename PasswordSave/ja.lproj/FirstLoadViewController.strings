@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "Create Account"; ObjectID = "1pE-vc-yvQ"; */
+"1pE-vc-yvQ.text" = "アカウントの作成";
+
+/* Class = "UILabel"; text = "App Password:"; ObjectID = "QSE-7H-dl5"; */
+"QSE-7H-dl5.text" = "アプリパスワード:";
+
+/* Class = "UILabel"; text = "Confirm Password:"; ObjectID = "Qnu-3F-qh0"; */
+"Qnu-3F-qh0.text" = "パスワードの確認:";
+
+/* Class = "UIButton"; normalTitle = "CREATE"; ObjectID = "RhW-IO-bKN"; */
+"RhW-IO-bKN.normalTitle" = "作成";
+
+/* Class = "UITextView"; text = "This account is used to save your password which you will save in this app. Use this account, you can only remember one password to remember all your password(s)."; ObjectID = "eq5-Fc-N5m"; */
+"eq5-Fc-N5m.text" = "このアカウントは、このアプリで保存するパスワードを保存するために使用されます。このアカウントを使用すると、すべてのパスワードを覚えている1つのパスワードのみを覚えておくことができます。";
+
+/* Class = "UILabel"; text = "NOTICE"; ObjectID = "j2s-06-EXr"; */
+"j2s-06-EXr.text" = "お知らせ！";
+
+/* Class = "UILabel"; text = "App Account:"; ObjectID = "ncT-oq-1Qy"; */
+"ncT-oq-1Qy.text" = "アプリアカウント:";

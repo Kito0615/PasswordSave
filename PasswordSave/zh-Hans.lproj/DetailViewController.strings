@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "NickName"; ObjectID = "5uL-Wa-vSN"; */
+"5uL-Wa-vSN.text" = "昵称";
+
+/* Class = "UIButton"; normalTitle = "Edit"; ObjectID = "9Eo-Ur-vhK"; */
+"9Eo-Ur-vhK.normalTitle" = "编辑";
+
+/* Class = "UIButton"; normalTitle = "Edit"; ObjectID = "aRf-Zi-Iri"; */
+"aRf-Zi-Iri.normalTitle" = "编辑";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "fm8-tc-Ssr"; */
+"fm8-tc-Ssr.text" = "密码";
+
+/* Class = "UIButton"; normalTitle = "Edit"; ObjectID = "mQe-1p-kPC"; */
+"mQe-1p-kPC.normalTitle" = "编辑";
+
+/* Class = "UILabel"; text = "E-mail"; ObjectID = "nx4-te-Ix4"; */
+"nx4-te-Ix4.text" = "E-mail";
+
+/* Class = "UILabel"; text = "Phone"; ObjectID = "wJz-4i-BhR"; */
+"wJz-4i-BhR.text" = "手机";

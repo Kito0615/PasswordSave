@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "Create Account"; ObjectID = "1pE-vc-yvQ"; */
+"1pE-vc-yvQ.text" = "Create Account";
+
+/* Class = "UILabel"; text = "App Password:"; ObjectID = "QSE-7H-dl5"; */
+"QSE-7H-dl5.text" = "App Password:";
+
+/* Class = "UILabel"; text = "Confirm Password:"; ObjectID = "Qnu-3F-qh0"; */
+"Qnu-3F-qh0.text" = "Confirm Password:";
+
+/* Class = "UIButton"; normalTitle = "CREATE"; ObjectID = "RhW-IO-bKN"; */
+"RhW-IO-bKN.normalTitle" = "CREATE";
+
+/* Class = "UITextView"; text = "This account is used to save your password which you will save in this app. Use this account, you can only remember one password to remember all your password(s)."; ObjectID = "eq5-Fc-N5m"; */
+"eq5-Fc-N5m.text" = "This account is used to save your password which you will save in this app. Use this account, you can only remember one password to remember all your password(s).";
+
+/* Class = "UILabel"; text = "NOTICE"; ObjectID = "j2s-06-EXr"; */
+"j2s-06-EXr.text" = "NOTICE";
+
+/* Class = "UILabel"; text = "App Account:"; ObjectID = "ncT-oq-1Qy"; */
+"ncT-oq-1Qy.text" = "App Account:";

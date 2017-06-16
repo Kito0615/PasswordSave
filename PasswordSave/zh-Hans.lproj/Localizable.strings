@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  PasswordSave
+
+  Created by AnarLong on 2017/5/27.
+  Copyright © 2017年 AnarL. All rights reserved.
+*/
+
+"delete" = "删除";
+"edit" = "编辑";
+"done" = "完成";
+"passwords" = "密码";
+"generate" = "生成";
+"addAccount" = "添加账户";
+"hide" = "隐藏";
+"show" = "显示";
+"error" = "错误";
+"cancel" = "取消";
+"please enter account" = "请输入账号";
+"please enter password" = "请输入密码";
+"add" = "添加账号";
+"list" = "显示列表";
+"setting" = "设置";
+"copy password" = "复制密码";

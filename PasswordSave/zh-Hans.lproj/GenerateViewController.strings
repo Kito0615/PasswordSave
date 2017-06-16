@@ -1,0 +1,36 @@
+
+/* Class = "UIButton"; normalTitle = "Characters(A-Z)"; ObjectID = "3ZF-DZ-xoV"; */
+"3ZF-DZ-xoV.normalTitle" = "大写字母(A-Z)";
+
+/* Class = "UIButton"; normalTitle = "Copy"; ObjectID = "3ag-Pe-G2e"; */
+"3ag-Pe-G2e.normalTitle" = "复制";
+
+/* Class = "UITextField"; placeholder = "Optional"; ObjectID = "Aor-tb-dXf"; */
+"Aor-tb-dXf.placeholder" = "可不填";
+
+/* Class = "UITextField"; placeholder = "Optional"; ObjectID = "I5K-O2-xWw"; */
+"I5K-O2-xWw.placeholder" = "可不填";
+
+/* Class = "UILabel"; text = "Start with"; ObjectID = "KpQ-JV-b1e"; */
+"KpQ-JV-b1e.text" = "开头..";
+
+/* Class = "UIButton"; normalTitle = "Generate"; ObjectID = "NGb-LN-Jan"; */
+"NGb-LN-Jan.normalTitle" = "生成";
+
+/* Class = "UIButton"; normalTitle = "Symbols(~*&^%$#@...)"; ObjectID = "NLP-pP-8jJ"; */
+"NLP-pP-8jJ.normalTitle" = "特殊字符(~*&^%$#@...)";
+
+/* Class = "UILabel"; text = "12"; ObjectID = "QOs-TM-WWE"; */
+"QOs-TM-WWE.text" = "12";
+
+/* Class = "UILabel"; text = "End with"; ObjectID = "gb5-1x-biY"; */
+"gb5-1x-biY.text" = "..结尾";
+
+/* Class = "UIButton"; normalTitle = "Characters(a-z)"; ObjectID = "mkx-SO-0y4"; */
+"mkx-SO-0y4.normalTitle" = "小写字母(a-z)";
+
+/* Class = "UILabel"; text = "Length"; ObjectID = "nKU-ra-7aq"; */
+"nKU-ra-7aq.text" = "密码长度";
+
+/* Class = "UIButton"; normalTitle = "Digits(0-9)"; ObjectID = "vDW-Dz-ODT"; */
+"vDW-Dz-ODT.normalTitle" = "数字(0-9)";

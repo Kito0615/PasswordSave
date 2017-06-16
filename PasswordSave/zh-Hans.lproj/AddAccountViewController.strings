@@ -1,0 +1,39 @@
+
+/* Class = "UIButton"; normalTitle = "Show"; ObjectID = "0zr-N3-FNn"; */
+"0zr-N3-FNn.normalTitle" = "显示";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "2uz-jv-KQi"; */
+"2uz-jv-KQi.text" = "密码";
+
+/* Class = "UILabel"; text = "Create New Account&Password"; ObjectID = "5zu-4b-408"; */
+"5zu-4b-408.text" = "添加账户和密码";
+
+/* Class = "UITextField"; placeholder = "Better use email to sign in"; ObjectID = "6TG-dp-o6x"; */
+"6TG-dp-o6x.placeholder" = "最好使用E-mail注册";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "8Hc-C8-YCU"; */
+"8Hc-C8-YCU.normalTitle" = "完成";
+
+/* Class = "UILabel"; text = "E-mail"; ObjectID = "8Vy-BR-HYc"; */
+"8Vy-BR-HYc.text" = "E-mail";
+
+/* Class = "UILabel"; text = "Site"; ObjectID = "Dxp-h8-468"; */
+"Dxp-h8-468.text" = "网站";
+
+/* Class = "UIButton"; normalTitle = "Select"; ObjectID = "E0I-cV-lHn"; */
+"E0I-cV-lHn.normalTitle" = "选择";
+
+/* Class = "UITextField"; placeholder = "Better start with a letter"; ObjectID = "GSi-HH-5oS"; */
+"GSi-HH-5oS.placeholder" = "最好使用字母开头";
+
+/* Class = "UITextField"; placeholder = "Better use letter and mark"; ObjectID = "HaO-a2-wDM"; */
+"HaO-a2-wDM.placeholder" = "最好使用字母和字符";
+
+/* Class = "UILabel"; text = "Logo"; ObjectID = "dDu-Px-XIv"; */
+"dDu-Px-XIv.text" = "标志";
+
+/* Class = "UILabel"; text = "Phone"; ObjectID = "rTR-Mb-rua"; */
+"rTR-Mb-rua.text" = "手机";
+
+/* Class = "UILabel"; text = "NickName"; ObjectID = "xbj-GN-E9v"; */
+"xbj-GN-E9v.text" = "昵称";

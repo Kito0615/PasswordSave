@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "Create Account"; ObjectID = "1pE-vc-yvQ"; */
+"1pE-vc-yvQ.text" = "創建帳戶";
+
+/* Class = "UILabel"; text = "App Password:"; ObjectID = "QSE-7H-dl5"; */
+"QSE-7H-dl5.text" = "程式密碼:";
+
+/* Class = "UILabel"; text = "Confirm Password:"; ObjectID = "Qnu-3F-qh0"; */
+"Qnu-3F-qh0.text" = "確認密碼:";
+
+/* Class = "UIButton"; normalTitle = "CREATE"; ObjectID = "RhW-IO-bKN"; */
+"RhW-IO-bKN.normalTitle" = "創建";
+
+/* Class = "UITextView"; text = "This account is used to save your password which you will save in this app. Use this account, you can only remember one password to remember all your password(s)."; ObjectID = "eq5-Fc-N5m"; */
+"eq5-Fc-N5m.text" = "創建這個帳戶是一個本地帳戶，用來存儲所有你將要存儲在這個程式中的密碼。使用這個帳戶，你僅僅需要記住一個密碼，即可記住所有帳戶密碼。";
+
+/* Class = "UILabel"; text = "NOTICE"; ObjectID = "j2s-06-EXr"; */
+"j2s-06-EXr.text" = "注意！";
+
+/* Class = "UILabel"; text = "App Account:"; ObjectID = "ncT-oq-1Qy"; */
+"ncT-oq-1Qy.text" = "程式帳戶:";

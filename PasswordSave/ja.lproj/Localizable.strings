@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  PasswordSave
+
+  Created by AnarLong on 2017/5/27.
+  Copyright © 2017年 AnarL. All rights reserved.
+*/
+
+"delete" = "削除";
+"edit" = "編集";
+"done" = "完了";
+"passwords" = "パスワード";
+"generate" = "生成";
+"addAccount" = "アカウントの追加";
+"hide" = "隠し";
+"show" = "表示";
+"error" = "エラー";
+"cancel" = "キャンセル";
+"please enter account" = "アカウントを入力してください";
+"please enter password" = "パスワードを入力してください";
+"list" = "リストを表示";
+"setting" = "設定";

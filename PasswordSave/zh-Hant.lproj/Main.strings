@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Account:"; ObjectID = "FKy-lP-aiI"; */
+"FKy-lP-aiI.text" = "帳戶:";
+
+/* Class = "UIButton"; normalTitle = "Clean Key China"; ObjectID = "UW3-Wl-a80"; */
+"UW3-Wl-a80.normalTitle" = "清除本地帳戶";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "ZlP-bb-HPI"; */
+"ZlP-bb-HPI.normalTitle" = "登錄";
+
+/* Class = "UILabel"; text = "点击以扫描TouchID"; ObjectID = "f4e-G1-bW9"; */
+"f4e-G1-bW9.text" = "點擊以掃描TouchID";
+
+/* Class = "UILabel"; text = "Login Local Account"; ObjectID = "qFp-s2-tgw"; */
+"qFp-s2-tgw.text" = "登錄本地帳戶";
+
+/* Class = "UILabel"; text = "Password:"; ObjectID = "yLd-U4-uON"; */
+"yLd-U4-uON.text" = "密碼:";

@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  PasswordSave
+
+  Created by AnarLong on 2017/5/27.
+  Copyright © 2017年 AnarL. All rights reserved.
+*/
+
+CFBundleDisplayName = "密码保险箱";

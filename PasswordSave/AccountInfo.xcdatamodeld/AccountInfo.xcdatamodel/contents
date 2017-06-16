@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16E195" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="AccountInfo" representedClassName="AccountInfo" isAbstract="YES" syncable="YES">
+        <attribute name="bound_email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bound_phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="site_account" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="site_icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="site_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="site_password" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AccountInfo" positionX="-63" positionY="-18" width="128" height="135"/>
+    </elements>
+</model>
