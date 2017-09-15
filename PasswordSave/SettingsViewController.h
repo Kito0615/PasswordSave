@@ -10,6 +10,8 @@
 #import <UIKit/UIKit.h>
 
 @interface SettingsViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *exportButton;
 
 @property (weak, nonatomic) IBOutlet GADBannerView *adBannerView;
+- (IBAction)exportAction:(UIButton *)sender;
 @end

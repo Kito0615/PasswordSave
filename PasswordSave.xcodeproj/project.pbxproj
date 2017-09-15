@@ -46,6 +46,7 @@
 		99EE0FE71ECD744600A25176 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EE0FE61ECD744600A25176 /* MenuViewController.m */; };
 		99EE0FF01ECD749000A25176 /* PasswordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EE0FEE1ECD749000A25176 /* PasswordTableViewController.m */; };
 		99EE0FF51ECD749E00A25176 /* GenerateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EE0FF31ECD749E00A25176 /* GenerateViewController.m */; };
+		99FE5C831F6BD58200D3CD0F /* NSDate+Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FE5C821F6BD58200D3CD0F /* NSDate+Formatter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +98,7 @@
 		998F70841EE005C300E76C7B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		99A057D61EE1523F00B53754 /* NSString+Localization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Localization.h"; sourceTree = "<group>"; };
 		99A057D71EE1523F00B53754 /* NSString+Localization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Localization.m"; sourceTree = "<group>"; };
+		99A2A91C1EF91F31006F56A7 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		99C130A11ED929A700746CF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/FirstLoadViewController.xib; sourceTree = "<group>"; };
 		99C130A41ED929A900746CF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/FirstLoadViewController.strings; sourceTree = "<group>"; };
 		99C130A51ED929CA00746CF5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/FirstLoadViewController.strings"; sourceTree = "<group>"; };
@@ -156,6 +158,8 @@
 		99EE0FEE1ECD749000A25176 /* PasswordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordTableViewController.m; sourceTree = "<group>"; };
 		99EE0FF21ECD749E00A25176 /* GenerateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenerateViewController.h; sourceTree = "<group>"; };
 		99EE0FF31ECD749E00A25176 /* GenerateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenerateViewController.m; sourceTree = "<group>"; };
+		99FE5C811F6BD58200D3CD0F /* NSDate+Formatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Formatter.h"; sourceTree = "<group>"; };
+		99FE5C821F6BD58200D3CD0F /* NSDate+Formatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Formatter.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +232,7 @@
 		996446BD1ECC32C9001C5D6E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				99A2A91C1EF91F31006F56A7 /* CloudKit.framework */,
 				99D751AB1EE569840002F475 /* QuartzCore.framework */,
 				99D751A81EE569780002F475 /* CoreLocation.framework */,
 				99D751A41EE569670002F475 /* GoogleMobileAds.framework */,
@@ -294,6 +299,8 @@
 				99D69EFE1ECE94270054ECE2 /* Base64Encoder.m */,
 				99A057D61EE1523F00B53754 /* NSString+Localization.h */,
 				99A057D71EE1523F00B53754 /* NSString+Localization.m */,
+				99FE5C811F6BD58200D3CD0F /* NSDate+Formatter.h */,
+				99FE5C821F6BD58200D3CD0F /* NSDate+Formatter.m */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -355,8 +362,11 @@
 						DevelopmentTeam = T385YQMJ7D;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
-							com.apple.Keychain = {
+							com.apple.DataProtection = {
 								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
 							};
 						};
 					};
@@ -413,6 +423,7 @@
 			files = (
 				996446AE1ECC302B001C5D6E /* ViewController.m in Sources */,
 				99D69F041ECEA0E40054ECE2 /* AccountInfo+CoreDataClass.m in Sources */,
+				99FE5C831F6BD58200D3CD0F /* NSDate+Formatter.m in Sources */,
 				99D69F151ECEAAA90054ECE2 /* DetailViewController.m in Sources */,
 				99EE0FE71ECD744600A25176 /* MenuViewController.m in Sources */,
 				996446AB1ECC302B001C5D6E /* AppDelegate.m in Sources */,
@@ -664,6 +675,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.AnarL.PasswordSave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -688,6 +700,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.AnarL.PasswordSave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

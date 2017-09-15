@@ -142,6 +142,9 @@ typedef NS_ENUM(NSInteger, PasswordType) {
 
 - (NSString *)generatePwdWith:(NSString *)srcString length:(NSInteger)length
 {
+    if (srcString.length == 0) {
+        return srcString;
+    }
     NSUInteger maxRandom = srcString.length;
     NSMutableString * ret = [NSMutableString string];
     for (int idx = 0; idx < length; idx ++) {

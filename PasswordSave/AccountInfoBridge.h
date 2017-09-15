@@ -18,6 +18,6 @@
 @property (nullable, nonatomic, copy) NSString *bound_phone;
 @property (nullable, nonatomic, copy) NSString *bound_email;
 
-- (instancetype)initWithAccountInfo:(AccountInfo *)info;
+- (instancetype _Nonnull )initWithAccountInfo:(AccountInfo *_Nonnull)info;
 
 @end
