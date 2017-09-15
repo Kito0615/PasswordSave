@@ -70,16 +70,20 @@
 - (IBAction)exportAction:(UIButton *)sender {
     NSString * docPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
     
-    NSArray * files = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:docPath error:nil];
-    for (NSString * path in files) {
-        if ([path.pathExtension isEqualToString:@"txt"]) {
-            [[NSFileManager defaultManager] removeItemAtPath:path error:nil];
+    
+    NSDirectoryEnumerator * em = [[NSFileManager defaultManager] enumeratorAtPath:docPath];
+    NSString * file = [em nextObject];
+    while (file != nil) {
+        if ([[file pathExtension] isEqualToString:@"txt"]) {
+            file = [docPath stringByAppendingPathComponent:file];
+            NSString * rf = [docPath stringByAppendingPathComponent:file];
+            [[NSFileManager defaultManager] removeItemAtPath:rf error:nil];
         }
+        file = [em nextObject];
     }
     
     NSString * exportFile = [docPath stringByAppendingPathComponent:[NSString stringWithFormat:@"ps_backup_%@.txt", [NSDate formatNow:@"yyyy_MM_dd_HH_mm_ss"]]];
     NSArray * infos = [[CoreDataManager sharedManager] selectAll];
-    NSLog(@"---->File:%@", exportFile);
     for (AccountInfo * bridge in infos) {
         [self writeInfo:bridge toFile:exportFile];
     }
